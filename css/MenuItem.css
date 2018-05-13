@@ -1,0 +1,7 @@
+.MenuItem {
+    color:grey;
+}
+
+.MenuItem .MenuItem__Icon {
+    padding: 13px;
+}

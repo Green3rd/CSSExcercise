@@ -1,0 +1,17 @@
+.MenuContainer {
+    width: 300px;
+    min-height: 100vh;
+    flex-direction: column;
+    background: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.85), 
+      rgba(255, 255, 255, 0.90)
+    ),
+    url(../assets/bg.png);
+    background-size: cover;
+    background-position: 490px 0px;
+}
+
+.MenuContainer__Header {
+    color:green;
+}
