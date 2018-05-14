@@ -1,0 +1,17 @@
+.SearchBoxContainer {
+    width: 100%;
+    display: flex;
+    margin: 24px 30px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.SearchBox__Input {
+    flex-grow: 1;
+    height: 37px;
+}
+
+.SearchBox__Button {
+    width: 100px;
+    height: 37px;
+}
