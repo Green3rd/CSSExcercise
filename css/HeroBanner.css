@@ -2,6 +2,16 @@
 
 .HeroBanner {
     color:white;
-    background: grey;
+    background: rgb(226, 59, 59);
     height: 200px;
+    padding: 45px;
+    text-align: center;
+}
+
+.HeroBanner .HeroBanner__Header1 {
+    font-size: 24px;
+}
+
+.HeroBanner .HeroBanner__Header2 {
+    margin-top: 12px;
 }
