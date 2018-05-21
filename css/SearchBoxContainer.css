@@ -1,12 +1,35 @@
 .SearchBoxContainer {
-    width: 100%;
+    max-width: 500px;
+    margin: 37px auto 7px auto;
+}
+
+.SearchBoxContainer .SearchBoxContainer__Wrapper {
     display: flex;
-    margin: 24px 30px;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.SearchBoxContainer .SearchBox__Suggestions {
+    font-size: 11px;
+    text-align: start;
+    margin-top: 7px; 
 }
 
 .SearchBox__Button {
     width: 100px;
-    height: 37px;
+    height: 46px;
+    background: rgb(31, 31, 31);
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.12);
+    color: white;
+    font-weight: bold;
+    border-radius: 0 4px 4px 0;
+    border: none;
+}
+
+.SearchBox__Button:focus {
+    outline: 0;
+}
+
+.SearchBox__Button:active { 
+    background-color: rgb(131, 131, 131);
 }
