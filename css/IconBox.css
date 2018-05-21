@@ -1,0 +1,19 @@
+@import './variables.css';
+
+.IconBox {
+    display: inline-block;
+    position: relative;
+}
+
+.IconBox .IconBox__Icon {
+    position: absolute;
+    color: var(--hero-banner-color);
+    font-size: 20px;
+    top: 10px;
+    left: 10px;
+}
+
+.IconBox .IconBox__Child {
+    flex-grow: 1;
+    height: 43px;
+}

@@ -11,6 +11,7 @@
 
 .MenuItem .MenuItem__Icon {
     padding: 13px;
+    min-width: 14px;
 }
 
 .MenuItemSpace {

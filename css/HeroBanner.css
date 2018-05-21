@@ -1,8 +1,8 @@
-/*This is where magic happens*/
 
+@import './variables.css';
 .HeroBanner {
     color:white;
-    background: rgb(226, 59, 59);
+    background: var(--hero-banner-color);
     height: 200px;
     padding: 45px;
     text-align: center;
@@ -10,6 +10,7 @@
 
 .HeroBanner .HeroBanner__Header1 {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .HeroBanner .HeroBanner__Header2 {

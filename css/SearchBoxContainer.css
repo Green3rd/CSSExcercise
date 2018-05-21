@@ -6,11 +6,6 @@
     align-items: center; */
 }
 
-.SearchBox__Input {
-    flex-grow: 1;
-    height: 37px;
-}
-
 .SearchBox__Button {
     width: 100px;
     height: 37px;
