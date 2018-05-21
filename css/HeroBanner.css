@@ -6,6 +6,7 @@
     height: 200px;
     padding: 45px;
     text-align: center;
+    position: relative;
 }
 
 .HeroBanner .HeroBanner__Header1 {

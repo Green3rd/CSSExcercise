@@ -1,0 +1,29 @@
+.CallOutBanner {
+    position: absolute;
+    background: rgba(20, 20, 20, 0.75);
+    border-radius: 2px; 
+    top: 35px;
+    padding: 8px;
+    right: 0;
+    cursor: pointer;
+}
+
+.CallOutBanner:hover {
+    background: rgba(20, 20, 20, 0.9);
+}
+
+.CallOutBanner .CallOutBanner__Image {
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.CallOutBanner .CallOutBanner__Text {
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.CallOutBanner .CallOutBanner__Icon {
+    font-size: 16px;
+    vertical-align: middle;
+}
