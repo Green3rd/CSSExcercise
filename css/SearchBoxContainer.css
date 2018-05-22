@@ -34,3 +34,9 @@
 .SearchBox__Button:active { 
     background-color: rgb(131, 131, 131);
 }
+
+@media only screen and (max-width: 1240px) {
+    .SearchBoxContainer {
+        margin-top: 0;
+    }
+}

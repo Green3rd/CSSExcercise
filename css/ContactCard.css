@@ -1,5 +1,6 @@
 .ContactCard { 
     display: inline-block;
+    text-align: center;
     width: 300px;
     font-size: 14px;
     margin-bottom: 20px;

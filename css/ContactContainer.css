@@ -1,5 +1,11 @@
 .ContactContainer {
     flex-direction: row;
-    text-align: center;
     padding: 30px 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1240px) {
+    .ContactContainer {
+        text-align: start;
+    }
 }

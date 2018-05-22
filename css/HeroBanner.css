@@ -1,5 +1,5 @@
-
 @import './variables.css';
+
 .HeroBanner {
     color:white;
     background: var(--hero-banner-color);
@@ -16,4 +16,19 @@
 
 .HeroBanner .HeroBanner__Header2 {
     margin-top: 12px;
+}
+
+@media only screen and (max-width: 1240px) {
+    .HeroBanner {
+        height: 75px;
+        padding: 20px;
+    }
+
+    .HeroBanner .HeroBanner__Header1 {
+        display: none;
+    }
+    
+    .HeroBanner .HeroBanner__Header2 {
+        display: none;
+    }
 }

@@ -27,3 +27,9 @@
     font-size: 16px;
     vertical-align: middle;
 }
+
+@media only screen and (max-width: 1240px) {
+    .CallOutBanner {
+        display: none;
+    }
+}
