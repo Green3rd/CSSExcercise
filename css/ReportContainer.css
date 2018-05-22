@@ -1,7 +1,8 @@
 .SummaryContainer--report {
     margin-top: 35px;
 }
-.SummaryContainer--report .Summary .Summary__ImageContainer {
+
+.Summary .Summary__ImageContainer {
     width: 100%;
     height: 140px;
     overflow: hidden;
@@ -12,7 +13,15 @@
     margin-bottom: -15px;
 }
 
-.SummaryContainer--report .Summary .Summary__Image {
+.Summary .Summary__ImageContainer--orange {
+    box-shadow: 0 4px 10px 0 rgba(255, 198, 40, 0.12);
+}
+
+.Summary .Summary__ImageContainer--red {
+    box-shadow: 0 4px 10px 0 rgba(255, 40, 40, 0.12);
+}
+
+.Summary .Summary__Image {
     position: relative;
     width: 100%;
     height: auto;
@@ -44,6 +53,6 @@
     color: rgb(85, 85, 85);
 }
 
-.SummaryContainer--report .SummaryInfo__HighlightValue {
+.SummaryInfo__HighlightValue {
     color: rgb(0, 172, 0);
 }
