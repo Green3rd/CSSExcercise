@@ -3,19 +3,42 @@
     width: 300px;
     font-size: 14px;
     margin-bottom: 20px;
+    margin: 6px;
+    --text-color-bright: rgb(206, 203, 203);
+    --title-color-bright: rgb(32, 32, 32);
+    --highlight-color-bright: white;
+
+    --title-color-black: rgb(122, 122, 122);
+
+    --text-color-dark: rgb(105, 105, 105);
+    --title-color-dark: rgb(122, 122, 122);
+    --highlight-color-dark: rgb(15, 15, 15);
 }
 
 .ContactCard--gray {
     background: radial-gradient(rgb(204, 226, 226), rgb(141, 158, 160), rgb(54, 53, 53));
 }
 
+.ContactCard--yellow {
+    background: radial-gradient(rgb(228, 243, 22), rgb(255, 233, 35), rgb(177, 160, 12));
+}
+
+.ContactCard--black {
+    background: radial-gradient(rgb(46, 46, 46), rgb(20, 20, 20), rgb(5, 5, 5));
+}
+
 .ContactCard .ContactCard__Header { 
     padding: 6px 10px;
-    background: rgb(99, 97, 97);
-    color: white;
-    min-width: 100px;
+    background: rgba(99, 97, 97,0.35);
+    border-radius: 3px; 
+    color: var(--highlight-color-bright);
+    min-width: 65px;
     display: block;
     float: left;
+}
+
+.ContactCard--yellow .ContactCard__Header {
+    color: var(--highlight-color-dark);
 }
 
 .ContactCard .ContactCard__Image { 
@@ -27,17 +50,32 @@
     clear: left;
 }
 
-.ContactCard .ContactCard__Title { 
+.ContactCard .ContactCard__Title {
+    color: var(--title-color-bright);
+    letter-spacing: 2px;
+}
+
+.ContactCard--yellow .ContactCard__Title {
+    color: var(--title-color-dark);
+}
+
+.ContactCard--black .ContactCard__Title {
+    color: var(--title-color-black);
 }
 
 .ContactCard .ContactCard__Name { 
-    color: white;
+    color: var(--highlight-color-bright);
     font-size: 20px;
 }
 
+.ContactCard--yellow .ContactCard__Name { 
+    color: var(--highlight-color-dark);
+}
+
 .ContactCard .ContactCard__Summary { 
-    color: rgb(206, 203, 203);
+    color: var(--text-color-bright);
     padding: 7px 10px 15px 10px;
+    min-height: 63px
     /* -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
@@ -45,6 +83,14 @@
     word-break: break-all; */
 }
 
+.ContactCard--yellow .ContactCard__Summary { 
+    color: var(--text-color-dark);
+}
+
 .ContactCard .ContactCard__Summary .ContactCard__Summary--highlight { 
-    color: white;
+    color: var(--highlight-color-bright);
+}
+
+.ContactCard--yellow .ContactCard__Summary .ContactCard__Summary--highlight { 
+    color: var(--highlight-color-dark);
 }
