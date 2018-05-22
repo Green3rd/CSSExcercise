@@ -1,5 +1,50 @@
-/*This is where magic happens*/
-.ContactCard{
-    background: tomato;
+.ContactCard { 
     display: inline-block;
+    width: 300px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.ContactCard--gray {
+    background: radial-gradient(rgb(204, 226, 226), rgb(141, 158, 160), rgb(54, 53, 53));
+}
+
+.ContactCard .ContactCard__Header { 
+    padding: 6px 10px;
+    background: rgb(99, 97, 97);
+    color: white;
+    min-width: 100px;
+    display: block;
+    float: left;
+}
+
+.ContactCard .ContactCard__Image { 
+    border-radius: 50%;
+    height: 75px;
+    padding: 10px 0 15px 0;
+    display: block;
+    margin: 5px auto;
+    clear: left;
+}
+
+.ContactCard .ContactCard__Title { 
+}
+
+.ContactCard .ContactCard__Name { 
+    color: white;
+    font-size: 20px;
+}
+
+.ContactCard .ContactCard__Summary { 
+    color: rgb(206, 203, 203);
+    padding: 7px 10px 15px 10px;
+    /* -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-break: break-all; */
+}
+
+.ContactCard .ContactCard__Summary .ContactCard__Summary--highlight { 
+    color: white;
 }

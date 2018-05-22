@@ -1,0 +1,30 @@
+.ContactPoint {
+    display: flex;
+    background: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.12);
+    border-right: 1px rgb(202, 202, 202) solid;
+    border-left: 1px rgb(202, 202, 202) solid;
+    border-bottom: 2px rgb(202, 202, 202) solid;
+}
+
+.ContactPoint .ContactPoint__Item {
+    width: 50%;
+    padding: 15px;
+    position: relative;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.ContactPoint .ContactPoint__Item:hover {
+    background: gray;
+    color: white;
+}
+
+.ContactPoint .ContactPoint__Item:not(:last-child)::after {
+    content: '';
+    border-right: 1px rgb(202, 202, 202) solid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}

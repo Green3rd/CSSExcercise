@@ -1,4 +1,5 @@
 .ContactContainer {
     flex-direction: row;
     text-align: center;
+    padding: 30px;
 }
