@@ -1,6 +1,49 @@
-.ReportContainer {
-    flex-direction: row;
-    padding: 30px 28px;
-    text-align: center;
-    background: rgb(231, 231, 231);
+.SummaryContainer--report {
+    margin-top: 35px;
+}
+.SummaryContainer--report .Summary .Summary__ImageContainer {
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px 0 rgba(40, 255, 104, 0.12);
+    -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+            transform: translateY(-30px);
+    margin-bottom: -15px;
+}
+
+.SummaryContainer--report .Summary .Summary__Image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* Center the image */
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+
+.SummaryContainer--report .SummaryInfo {
+    margin-top: 15px;
+    width: 270px;
+    height: 100%;
+    padding: 12px;
+}
+
+.SummaryContainer--report .SummaryInfo .SummaryInfo__Title {
+    color: rgb(65, 65, 65);
+    text-align: start;
+    font-size: 16px;
+}
+
+.SummaryContainer--report .SummaryInfo .SummaryInfo__Value {
+    font-size: 13px;
+    text-align: start;
+    padding-top: 5px;
+    color: rgb(85, 85, 85);
+}
+
+.SummaryContainer--report .SummaryInfo__HighlightValue {
+    color: rgb(0, 172, 0);
 }

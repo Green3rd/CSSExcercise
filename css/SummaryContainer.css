@@ -9,13 +9,12 @@
 }
 
 .Summary .Summary__IconContainer {
-    color: white;
     background: white;
     position: absolute;
     width: 70px;
     height: 70px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,.12);
-    border-radius: 3px; 
+    border-radius: 3px;
     left: 12px;
 }
 
@@ -45,14 +44,14 @@
     background: white;
     margin-top: 15px;
     box-shadow: 0 4px 7px 0 rgba(0,0,0,.12);
-    border-radius: 2px; 
+    border-radius: 2px;
     width: 170px;
     height: 100%;
     padding: 12px;
     transition: all 0.3s;
 }
 
- .SummaryInfo:hover {
+.SummaryInfo:hover {
     background: rgb(224, 248, 255);
 }
 
@@ -72,7 +71,6 @@
 .SummaryInfo .SummaryInfo__Value.SummaryInfo__Value--short {
     padding-top: 0;
 }
-
 
 .SummaryInfo .SummaryInfo__SubValue {
     color: rgb(129, 129, 129);
