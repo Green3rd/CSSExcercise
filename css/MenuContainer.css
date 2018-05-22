@@ -12,15 +12,34 @@
     background-size: cover;
     background-position: 490px 0px;
     padding: 10px 10px 17px 10px;
+    transition: all 0.5s;
 }
 
 .MenuContainer__Header {
     color:rgba(40, 33, 66, 0.85);
     text-align: center;
     font-weight: bold;
+    opacity: 1;
+    transition: all 0.5s;
+    
 }
 
 .MenuContainer .MenuSeparator {
     margin: 16px;
     color: rgba(210, 210, 210, 0.1);
+}
+
+
+@media only screen and (max-width: 540px) {
+    .MenuContainer {
+        width: 40px;
+    }
+
+    .MenuContainer__Header {
+       opacity: 0;
+    }
+
+    .MenuContainer .MenuSeparator {
+        margin: 2px;
+    }
 }

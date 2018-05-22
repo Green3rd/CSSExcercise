@@ -9,3 +9,9 @@
         text-align: start;
     }
 }
+
+@media only screen and (max-width: 540px) {
+    .ContactContainer {
+        text-align: center;
+    }
+}

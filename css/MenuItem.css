@@ -2,6 +2,7 @@
     color:grey;
     margin: 5px 0;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .MenuItem:hover {
@@ -16,7 +17,17 @@
     min-width: 14px;
 }
 
+.MenuItem .MenuItem__Text {
+    word-break: break-all;
+}
+
 .MenuItemSpace {
     /* align-self: flex-end; */
     flex-grow: 1;
+}
+
+@media only screen and (max-width: 540px) {
+    .MenuItem .MenuItem__Text {
+        display: none;
+    }
 }

@@ -7,6 +7,7 @@
     padding: 45px;
     text-align: center;
     position: relative;
+    transition: all 0.2s;
 }
 
 .HeroBanner .HeroBanner__Header1 {
@@ -30,5 +31,13 @@
     
     .HeroBanner .HeroBanner__Header2 {
         display: none;
+    }
+}
+
+
+@media only screen and (max-width: 540px) {
+    .HeroBanner {
+        height: 50px;
+        padding: 14px 20px 12px 20px;
     }
 }

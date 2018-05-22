@@ -25,6 +25,7 @@
     border-radius: 0 4px 4px 0;
     border: none;
     cursor: pointer;
+    transition: all 0.2s;
 }
 
 .SearchBox__Button:focus {
@@ -38,5 +39,11 @@
 @media only screen and (max-width: 1240px) {
     .SearchBoxContainer {
         margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .SearchBoxContainer .SearchBox__Suggestions  {
+        display: none;
     }
 }
