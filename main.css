@@ -3,7 +3,7 @@
 @import './css/ContactCard.css';
 @import './css/ContactPoint.css';
 @import './css/ContactContainer.css';
-@import './css/Excercise2Container.css';
+@import './css/ExcercisesContainer.css';
 @import './css/FooterInformation.css';
 @import './css/HeroBanner.css';
 @import './css/HomeContainer.css';
@@ -11,6 +11,8 @@
 @import './css/IconBox.css';
 @import './css/MenuContainer.css';
 @import './css/MenuItem.css';
+@import './css/PromotionsContainer.css';
 @import './css/ReportContainer.css';
 @import './css/SearchBoxContainer.css';
+@import './css/SearchResultContainer.css';
 @import './css/SummaryContainer.css';

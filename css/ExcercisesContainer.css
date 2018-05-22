@@ -4,3 +4,10 @@
     text-align: center;
     background: rgb(231, 231, 231);
 }
+
+.Excercise3Container {
+    flex-direction: row;
+    padding: 14px;
+    background: white;
+    display: flex;
+}
