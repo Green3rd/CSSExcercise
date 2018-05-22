@@ -78,29 +78,3 @@
     color: rgb(129, 129, 129);
     font-size: 16px;
 }
-
-.SummaryInfo .SummaryInfo__DescContainer {
-    margin-top: 14px;
-    font-size: 10px;
-    text-align: start;
-    color: rgb(148, 142, 142);
-}
-
-.SummaryInfo .SummaryInfo__DescContainer::before {
-    content: '';
-    border-top: 1px rgb(224, 224, 224) solid;
-    display: block;
-    padding-top: 11px;
-}
-
-.SummaryInfo .SummaryInfo__Icon {
-    padding: 2px;
-}
-
-.SummaryInfo .SummaryInfo__DescContainer--alert .SummaryInfo__Icon {
-    color: red;
-}
-
-.SummaryInfo .SummaryInfo__DescContainer--alert .SummaryInfo__Description {
-    color: violet;
-}
