@@ -1,5 +1,6 @@
 .SummaryContainer {
     display: flex;
+    justify-content: space-between;
 }
 
 .Summary {
@@ -9,13 +10,29 @@
 
 .Summary .Summary__IconContainer {
     color: white;
-    background: orange;
+    background: white;
     position: absolute;
     width: 70px;
     height: 70px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,.12);
     border-radius: 3px; 
     left: 12px;
+}
+
+.Summary .Summary__IconContainer.Summary__IconContainer--orange {
+    background: orange;
+}
+
+.Summary .Summary__IconContainer.Summary__IconContainer--green {
+    background: green;
+}
+
+.Summary .Summary__IconContainer.Summary__IconContainer--red {
+    background: rgb(221, 70, 43);
+}
+
+.Summary .Summary__IconContainer.Summary__IconContainer--blue {
+    background: rgb(80, 171, 228);
 }
 
 .Summary .Summary__Icon {
@@ -32,6 +49,11 @@
     width: 170px;
     height: 100%;
     padding: 12px;
+    transition: all 0.3s;
+}
+
+ .SummaryInfo:hover {
+    background: rgb(224, 248, 255);
 }
 
 .SummaryInfo .SummaryInfo__Title {
@@ -47,6 +69,11 @@
     color: rgb(85, 85, 85);
 }
 
+.SummaryInfo .SummaryInfo__Value.SummaryInfo__Value--short {
+    padding-top: 14px;
+}
+
+
 .SummaryInfo .SummaryInfo__SubValue {
     color: rgb(129, 129, 129);
     font-size: 16px;
@@ -56,6 +83,7 @@
     margin-top: 14px;
     font-size: 10px;
     text-align: start;
+    color: rgb(148, 142, 142);
 }
 
 .SummaryInfo .SummaryInfo__DescContainer::before {
@@ -66,10 +94,13 @@
 }
 
 .SummaryInfo .SummaryInfo__Icon {
-    color: red;
     padding: 2px;
 }
 
-.SummaryInfo .SummaryInfo__Description {
+.SummaryInfo .SummaryInfo__DescContainer--alert .SummaryInfo__Icon {
+    color: red;
+}
+
+.SummaryInfo .SummaryInfo__DescContainer--alert .SummaryInfo__Description {
     color: violet;
 }
