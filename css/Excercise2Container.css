@@ -1,0 +1,6 @@
+.Excercise2Container {
+    flex-direction: row;
+    padding: 30px 28px;
+    text-align: center;
+    background: rgb(231, 231, 231);
+}

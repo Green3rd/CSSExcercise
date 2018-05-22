@@ -1,0 +1,75 @@
+.SummaryContainer {
+    display: flex;
+}
+
+.Summary {
+    position: relative;
+    height: 100%;
+}
+
+.Summary .Summary__IconContainer {
+    color: white;
+    background: orange;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.12);
+    border-radius: 3px; 
+    left: 12px;
+}
+
+.Summary .Summary__Icon {
+    color: white;
+    padding: 20px;
+    font-size: 26px;
+}
+
+.SummaryInfo {
+    background: white;
+    margin-top: 15px;
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,.12);
+    border-radius: 2px; 
+    width: 170px;
+    height: 100%;
+    padding: 12px;
+}
+
+.SummaryInfo .SummaryInfo__Title {
+    color: rgb(184, 184, 184);
+    text-align: end;
+    font-size: 12px;
+}
+
+.SummaryInfo .SummaryInfo__Value {
+    font-size: 22px;
+    text-align: end;
+    padding-top: 27px;
+    color: rgb(85, 85, 85);
+}
+
+.SummaryInfo .SummaryInfo__SubValue {
+    color: rgb(129, 129, 129);
+    font-size: 16px;
+}
+
+.SummaryInfo .SummaryInfo__DescContainer {
+    margin-top: 14px;
+    font-size: 10px;
+    text-align: start;
+}
+
+.SummaryInfo .SummaryInfo__DescContainer::before {
+    content: '';
+    border-top: 1px rgb(224, 224, 224) solid;
+    display: block;
+    padding-top: 11px;
+}
+
+.SummaryInfo .SummaryInfo__Icon {
+    color: red;
+    padding: 2px;
+}
+
+.SummaryInfo .SummaryInfo__Description {
+    color: violet;
+}
