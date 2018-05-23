@@ -1,11 +1,34 @@
 .SearchResultContainer {
     background: rgb(238, 237, 237);
     width: 500px;
-
 }
 
 .SearchResultCard {
-    
+    display: flex;
+    flex-direction: row;
+}
+
+.ImageListContainer{
+    width: 200px;
+}
+
+.ImageList_Main{
+    width: 100%;
+    height: auto;
+}
+
+.SubImageContainer {
+    margin-top: -4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ImageList_Sub {
+    width: 65px;
+    height: 65px;
+    background: url("../assets/hotel.png") 50% 50% no-repeat;
+    background-size: cover;
 }
 
 .InsiderDeals {
